@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Enhancer & Pomodoro Timer",
+  "version": "1.0",
+  "description": "Enhance privacy by blocking ads, managing cookies, blocking scripts, and stay productive with a built-in Pomodoro timer.",
+  "permissions": [
+    "declarativeNetRequest",
+    "cookies"
+  ],
+ 
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Privacy Enhancer & Pomodoro Timer"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

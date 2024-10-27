@@ -1,0 +1,92 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    width: 350px;
+    height: auto;
+    background-color: #ffe6e6;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid #f7b8b8;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Short Break Mode Styling */
+  body.short-break-mode {
+    background-color: #a6caff;
+  }
+  
+  /* Timer Display */
+  #timer-display {
+    font-size: 2.5em;
+    margin: 10px 0;
+    font-style: italic;
+  }
+  
+  /* Button Styles */
+  button {
+    margin: 10px 0;
+    padding: 5px;
+    width: 180px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-style: italic;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #45a049;
+    opacity: 0.85;
+  }
+  
+  /* Circular Button Styles for Timer */
+  .circle-button {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  /* Start and Pause Button */
+  #start-pause-btn {
+    background-color: #a8e6cf;
+  }
+  
+  /* Reset Button */
+  #reset-btn {
+    background-color: #a6caff;
+    font-size: 30px;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 800px) {
+    .popup-container {
+      width: 90%;
+      height: auto;
+    }
+  
+    .circle-button {
+      width: 70px;
+      height: 70px;
+      font-size: 16px;
+    }
+  }
+  
+  /* Lap Message Styling */
+  .lap-message {
+    font-size: 1.2rem;
+    color: green;
+    margin-top: 10px;
+    display: none;
+  }
+
+  

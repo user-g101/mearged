@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Enhancer & Pomodoro Timer</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Privacy Enhancer Section -->
+  <div class="section">
+    <h1>Privacy Enhancer</h1>
+    <button id="toggleAdblock">Toggle Ad Blocker</button><br>
+    <button id="toggleScriptBlocker">Toggle Script Blocker</button><br>
+    <button id="clearCookies">Clear Cookies</button>
+  </div>
+  
+  <!-- Pomodoro Timer Section -->
+  <div class="section">
+    <h1>Pomodoro Timer</h1>
+    <div id="timer-display">25:00</div>
+    <div class="button-container">
+      <button class="circle-button" id="start-pause-btn">►</button>
+      <button id="reset-btn" class="circle-button">⟳</button>
+      <button id="short-break-btn" class="circle-button">Short Break</button>
+      <div id="lap-message" class="lap-message"></div>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
